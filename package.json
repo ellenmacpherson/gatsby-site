@@ -1,13 +1,14 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "ellen-mac-blog",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple blog built with gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ellen Macpherson <macphersonellen@outlook.com>",
   "dependencies": {
     "gatsby": "^2.18.4",
     "gatsby-image": "^2.2.34",
-    "gatsby-plugin-manifest": "^2.2.30",
+    "gatsby-plugin-html-attributes": "^1.0.5",
+    "gatsby-plugin-manifest": "^2.2.33",
     "gatsby-plugin-offline": "^3.0.24",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.1.16",
@@ -40,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/ellenmacpherson/gatsby-site"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

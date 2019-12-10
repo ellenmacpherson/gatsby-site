@@ -5,9 +5,9 @@ import './layout.css'
 import './Nav.css'
 import BuyMeACoffee from "./BuyMeACoffee"
 
-const Nav = ({ siteTitle }) => (
+const Nav = () => (
     <nav className='navigation'>
-        <li id='logo'><Link to='/'>EM</Link></li>
+        <div id='logo'><Link to='/'>EM</Link></div>
         <ul className='nav-list'>
             <li className='nav-items'><Link to='/blog'>Blog</Link></li>
             <li className='nav-items'><BuyMeACoffee /></li>
