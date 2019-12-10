@@ -5,7 +5,6 @@ import Footer from "./Footer"
 import BlogPreview from "./BlogPreview"
 import About from "./About"
 import Contact from "./Contact"
-import { graphql } from "gatsby"
 
 const Layout = ({data}) => {
 

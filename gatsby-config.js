@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-site",
   siteMetadata: {
     title: `Ellen Macpherson`,
     description: `Personal website and blog built using gatsby.`,
