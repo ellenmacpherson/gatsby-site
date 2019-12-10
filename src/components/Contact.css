@@ -1,0 +1,14 @@
+.contactSection {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.contactSection a {
+    color: #FF9100;
+    text-decoration: none;
+}
+
+.contactSection a:hover {
+    color: #ccc;
+}

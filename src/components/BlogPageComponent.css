@@ -1,0 +1,25 @@
+.BlogPreview {
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.BlogPreview h2 {
+    text-align: left;
+}
+
+.placeholderImage {
+    height: 150px;
+    display: inline; 
+}
+
+.previewContent {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.previewContent p {
+    padding: 0px 30px;
+}

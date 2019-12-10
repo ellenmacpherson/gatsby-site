@@ -1,0 +1,31 @@
+.blogList {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.BlogPreview {
+    width: 65%;
+    margin: 0 auto;
+    padding: 60px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.BlogPreview h2 { 
+    margin: 0;
+}
+
+.previewContent {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.previewContent p {
+    text-align: justify;
+}
+
+.readMoreLink {
+    text-decoration: none;
+    color: #FF9100;
+}
