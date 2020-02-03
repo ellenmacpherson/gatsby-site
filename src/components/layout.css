@@ -81,6 +81,42 @@ html {
 }
 
 .BlogPostPage small {
+    margin-top: 30px;
+    font-weight: bold;
     margin-right: 20px;
     display: block;
+}
+
+.tagList {
+    margin-bottom: 30px;
+    padding: 0;
+
+}
+
+.tagList li {
+    font-size: 12px;
+    background: #2A8C85;
+    display: inline;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+.tagList li a {
+    color: white;
+    text-decoration: none;
+}
+
+.blogArticleContent {
+    margin-top: 20px;
+    border-top: 1px #ccc solid;
+}
+
+.blogArticleContent a {
+    color: #2A8C85;
+    text-decoration: none;
+}
+
+.blogList {
+    padding-bottom: 50px;
 }

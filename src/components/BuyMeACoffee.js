@@ -4,7 +4,7 @@ import './layout.css'
 import './BuyMeACoffee.css'
 
 const BuyMeACoffee = () => (
-    <a className="bmc-button" target="_blank" rel="noreferrer" href="https://www.buymeacoffee.com/ellenmacpherson"><img
+    <a className="bmc-button" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/ellenmacpherson"><img
             src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee." /></a>
 
 )

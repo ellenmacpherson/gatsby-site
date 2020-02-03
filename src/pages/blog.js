@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from "gatsby"
 import Nav from '../components/Nav'
 import './Blog.css'
+import '../components/BlogPageComponent.css'
 import Footer from '../components/Footer'
 import { graphql } from 'gatsby'
-import Placeholder from '../images/placeholder.png'
 
 const Blog = ({data}) => {
     const style = {
@@ -21,7 +21,7 @@ const Blog = ({data}) => {
                 const { frontmatter } = edge.node
                 return(
                     <article className='BlogPreview'>
-                    <h2>{frontmatter.title}</h2>
+                    <Link to={frontmatter.path}><h2>{frontmatter.title}</h2></Link>
                     <div className='previewContent'>
                         <p>{excerpt}<Link to={frontmatter.path} className='readMoreLink'> Read More</Link></p>
                     </div>

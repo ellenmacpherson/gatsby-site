@@ -1,5 +1,4 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import '../components/layout.css'
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
@@ -13,8 +12,11 @@ export default function Template({data}) {
         background: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${post.frontmatter.cover_image})`,
         width: '100%'
     }
-    const tags = post.frontmatter.tags;
-    let tagStr = tags.toString();
+    // const tags = post.frontmatter.tags;
+    // tags.forEach(tag => {
+    //     tag = tag.trim()
+    // })
+    // console.log(tags)
 
     return (
         <section className='BlogPostPage'>
@@ -24,9 +26,17 @@ export default function Template({data}) {
                     <h1>{post.frontmatter.title}</h1>
                 </div>
                 <section className='content'>
-                    <p><small>Published: {post.frontmatter.date}</small>
-                    <small className='tag'>Tags: {tags}</small></p>
-                    <article dangerouslySetInnerHTML={{__html: post.html}}></article>
+                    <small>Published: {post.frontmatter.date}</small>
+                    {/* <ul className='tagList'>
+                        {tags.map(tag => (
+                            <li className key={tag}>
+                            <a key={tag} href={(tag)}>
+                                {tag}
+                            </a>
+                            </li>
+                        ))}
+                        </ul> */}
+                    <article className='blogArticleContent' dangerouslySetInnerHTML={{__html: post.html}}></article>
                 </section>
             </main>
             <Footer />
@@ -50,3 +60,4 @@ export const postQuery = graphql`
         }
     }
 `
+

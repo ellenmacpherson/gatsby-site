@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import './layout.css'
@@ -8,7 +7,7 @@ const About = ({ siteTitle }) => (
     <section className='aboutSection'>
         <h2>About Me</h2>
 
-        <p>Hey there, I'm Ellen 👋</p>
+        <p>Hey there, I'm Ellen <span role="img" aria-label="hello emoji">👋</span></p>
 
         <p>I'm a data-driven frontend developer currently based in the UK. Day-to-day, I turn coffee into TV apps at BT. Outside of the 9-5, I build small apps, blogs and websites using HTML, CSS, JavaScript and React.js. My work is all about leveraging the principles of human-centered design to ensure simple, brilliant, and accessible user experiences. So if you want to build an app all the technophobes in your family will love using, let's have a chat.</p>
 

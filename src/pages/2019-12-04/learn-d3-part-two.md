@@ -3,7 +3,7 @@ path: '/learn-d3-part-two'
 date: '2019-12-04'
 published: true
 title: "Learn D3.js with Me: Bind Data to DOM Selections (Post #2)."
-tags: ['tutorial', ' javascript', 'data', 'd3']
+tags: ['tutorial', 'javascript', 'data', 'd3']
 cover_image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
 
 ---
