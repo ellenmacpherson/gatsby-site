@@ -14,10 +14,10 @@ const Contact = ({ siteTitle }) => (
         <p>If you've enjoyed any of my frontend development or UX content, that's great! If you have the resources to do so, feel free to <a href='https://www.buymeacoffee.com/ellenmacpherson'>
           buy me coffee</a> to say thanks. My content creation goes much faster when I've got some caffiene in hand. ☕</p>
     </section>
-    <section id="twitter">
+    {/* <section id="twitter">
         <a className="twitter-timeline" data-height="400" data-width="300" href="https://twitter.com/ellen_dev">Tweets by Ellen Macpherson</a> 
         <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
-    </section>
+    </section> */}
     </div>
 )
 

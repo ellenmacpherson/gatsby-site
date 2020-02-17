@@ -8,7 +8,7 @@
 
 .contactText {
     padding-bottom: 50px;
-    width: 40%;
+    width: 80%;
     margin: 0px auto;
 }
 
@@ -20,14 +20,14 @@
 .contactText a:hover {
     color: #ccc;
 }
-
+/* 
 #twitter {
     width: 40%;
     margin: 0px auto;
     margin-top: 20px;
+ */
 
-
-}
+/* } */
 
 @media screen and (max-width: 880px) {
     #contactContainer {
@@ -35,11 +35,11 @@
         flex-direction: column;
         justify-content: center;
     }
-
+/* 
     .contactText,
     #twitter {
         width: 75%;
         margin: 0 auto;
-    }
+    } */
 
 }
