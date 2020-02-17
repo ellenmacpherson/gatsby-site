@@ -1,14 +1,45 @@
-.contactSection {
-    padding-bottom: 50px;
-    margin: 20px auto;
-    width: 80%;
+#contactContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+    margin-bottom: 30px;
 }
 
-.contactSection a {
+.contactText {
+    padding-bottom: 50px;
+    width: 40%;
+    margin: 0px auto;
+}
+
+.contactText a {
     color: #2A8C85;
     text-decoration: none;
 }
 
-.contactSection a:hover {
+.contactText a:hover {
     color: #ccc;
+}
+
+#twitter {
+    width: 40%;
+    margin: 0px auto;
+    margin-top: 20px;
+
+
+}
+
+@media screen and (max-width: 880px) {
+    #contactContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contactText,
+    #twitter {
+        width: 75%;
+        margin: 0 auto;
+    }
+
 }

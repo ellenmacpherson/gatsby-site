@@ -4,7 +4,8 @@ import './layout.css'
 import './Contact.css'
 
 const Contact = ({ siteTitle }) => (
-    <section className='contactSection'>
+  <div id="contactContainer">
+    <section className='contactText'>
         <h2>Contact Me</h2>
         <p>The best way to reach me is to say g'day on <a href='https://twitter.com/ellen_dev'>Twitter</a>. If it's in regards to professional advice or a project, hit me up on my <a href="https://www.linkedin.com/in/ellen-macpherson/">LinkedIn</a>.</p>
 
@@ -13,7 +14,11 @@ const Contact = ({ siteTitle }) => (
         <p>If you've enjoyed any of my frontend development or UX content, that's great! If you have the resources to do so, feel free to <a href='https://www.buymeacoffee.com/ellenmacpherson'>
           buy me coffee</a> to say thanks. My content creation goes much faster when I've got some caffiene in hand. ☕</p>
     </section>
-
+    <section id="twitter">
+        <a className="twitter-timeline" data-height="400" data-width="300" href="https://twitter.com/ellen_dev">Tweets by Ellen Macpherson</a> 
+        <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+    </section>
+    </div>
 )
 
 Contact.propTypes = {

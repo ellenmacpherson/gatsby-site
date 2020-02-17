@@ -1,16 +1,17 @@
 .hero-header {
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
-    height: 90vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../images/profile-hero.jpg');
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url('../images/profile-hero.jpg');
     background-size: cover;
     background-position: bottom;
 }
 
 .hero-header h1 {
     color: white;
+    font-size: 1.4rem;
     width: 100%;
     font-weight: 300;
-    margin-top: 31vh;
+    margin-top: 26vh;
     text-align: center;
 }
