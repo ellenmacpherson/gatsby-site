@@ -3,6 +3,24 @@
     margin: 0 auto;
 }
 
+.blogListHeader {
+    width: 95%;
+    height: 70vh;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url('../images/blog-hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.blogListHeader h1 {
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+    font-weight: 300;
+    margin-top: 26vh;
+    text-align: center;
+}
+
 .BlogPreview {
     width: 65%;
     margin: 0 auto;

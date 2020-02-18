@@ -8,14 +8,17 @@ import { graphql } from 'gatsby'
 
 const Blog = ({data}) => {
     const style = {
-        width: '95%',
+        width: '100%',
         margin: '0 auto'
     }
 
     const {edges} = data.allMarkdownRemark;
     return( 
         <div>
-            <Nav style={style}/>
+            <header className="blogListHeader">
+                <Nav style={style}/>
+                <h1>Blog</h1>
+            </header>
             <div className='blogList'>
             {edges.map(edge => {
                 const excerpt = edge.node.excerpt;
