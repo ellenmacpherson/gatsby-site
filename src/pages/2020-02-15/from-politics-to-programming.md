@@ -1,5 +1,5 @@
 ---
-path: '/learn-d3-part-two'
+path: '/from-politics-to-programming'
 date: '2020-02-15'
 published: true
 title: "From Politics to Programming: How I Found Empowerment in Code and Changed Careers."

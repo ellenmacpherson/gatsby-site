@@ -16,7 +16,6 @@ export function BlogPreview({ data }) {
           const tagList = frontmatter.tags
           let prefixEmoji = '';
           tagList.forEach(tag => {
-            console.log(tag)
             if (tag === 'css' || tag === 'ux') {
               prefixEmoji = '🎨'
             } else if (tag === 'mental health') {
@@ -30,7 +29,7 @@ export function BlogPreview({ data }) {
             } 
           })
           return (
-            <p key={frontmatter.path}>{prefixEmoji} <Link className='linkToBlog' to={frontmatter.path}>{frontmatter.title}</Link></p>
+            <p key={frontmatter.path}><span role="img">{prefixEmoji}</span><Link className='linkToBlog' to={frontmatter.path}>{frontmatter.title}</Link></p>
           )
         })}
       </section>
