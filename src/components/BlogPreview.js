@@ -21,11 +21,13 @@ export function BlogPreview({ data }) {
               prefixEmoji = '🎨'
             } else if (tag === 'mental health') {
               prefixEmoji = '🧠';
-            } else if (tag === 'tutorial' || tag === 'javascript' || tag === 'python') {
-              prefixEmoji = '👩🏻‍💻'
+            } else if (tag === 'personal') {
+              prefixEmoji = '👩🏻';
+            }  else if (tag === 'tutorial' || tag === 'javascript' || tag === 'python') {
+              prefixEmoji = '👩🏻‍💻';
             } else if (tag === 'career') {
-              prefixEmoji = '💼'
-            }
+              prefixEmoji = '💼';
+            } 
           })
           return (
             <p key={frontmatter.path}>{prefixEmoji} <Link className='linkToBlog' to={frontmatter.path}>{frontmatter.title}</Link></p>
@@ -51,7 +53,7 @@ export default props => (
   <StaticQuery
     query={graphql`
   query HomePageBlogQuery {
-      allMarkdownRemark(limit: 10, sort:, { order: DESC, fields: [frontmatter___date] }) {
+      allMarkdownRemark(limit: 7, sort:, { order: DESC, fields: [frontmatter___date] }) {
       edges {
           node {
           id
