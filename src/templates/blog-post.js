@@ -9,8 +9,9 @@ export default function Template({data}) {
     console.log(post.frontmatter.date)
 
     const backgroundImage = {
-        background: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${post.frontmatter.cover_image})`,
-        width: '100%'
+        background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${post.frontmatter.cover_image})`,
+        width: '100%',
+        maxHeight: '70vh'
     }
     // const tags = post.frontmatter.tags;
     // tags.forEach(tag => {
@@ -20,7 +21,7 @@ export default function Template({data}) {
 
     return (
         <section className='BlogPostPage'>
-            <Nav style={{width:'80%'}} />
+            <Nav style={{width:'95%'}} />
             <main>
                 <div className="BlogPostHeader" style={backgroundImage}>
                     <h1>{post.frontmatter.title}</h1>
