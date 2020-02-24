@@ -10,7 +10,9 @@
     font-family: 'Open Sans', 'sans-serif';
 }
 
-.nav-list {
+.nav-list {    
+    display:flex;
+    justify-content: flex-end;
     text-align: right;
     right: 0;
     margin-right: 8px;
