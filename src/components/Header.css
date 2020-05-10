@@ -1,10 +1,10 @@
 .hero-header {
     width: 95%;
     margin: 0 auto;
-    height: 70vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url('../images/profile-hero.jpg');
+    /* height: 70vh; */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url('../images/profile-hero.jpg');
     background-size: cover;
-    background-position: bottom;
+    background-position: bottom; */
 }
 
 .hero-header h1 {

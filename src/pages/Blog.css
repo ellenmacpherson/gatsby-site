@@ -1,24 +1,11 @@
 .blogList {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .blogListHeader {
     width: 95%;
-    height: 70vh;
     margin: 0 auto;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url('../images/blog-hero.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.blogListHeader h1 {
-    color: white;
-    font-size: 2rem;
-    width: 100%;
-    font-weight: 300;
-    margin-top: 26vh;
-    text-align: center;
 }
 
 .BlogPreview {
@@ -28,12 +15,15 @@
     border-bottom: 1px solid #ccc;
 }
 
-.BlogPreview h2 { 
-    margin: 0;
+.BlogPreview h3 {
+    color: #724CF9;
+    font-weight: lighter;
 }
 
+
 .previewContent {
-    padding-top: 30px;
+    padding-top: 15px;
+    line-height: 2;
     display: flex;
     align-items: center;
     width: 100%;
@@ -45,5 +35,10 @@
 
 .readMoreLink {
     text-decoration: none;
-    color: #2A8C85;
+    color: #724CF9;
+    border-bottom: 1px solid transparent;
+}
+
+.readMoreLink:hover {
+    border-bottom: 1px solid #724CF9;
 }

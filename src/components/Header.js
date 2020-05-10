@@ -6,7 +6,7 @@ import './Header.css'
 const Header = () => (
   <header className='hero-header'>  
     <Nav />
-    <h1>Software Developer | Content Creator | D&I Advocate</h1>
+    {/* <h1>Software Developer | Content Creator | D&I Advocate</h1> */}
   </header>
 )
 

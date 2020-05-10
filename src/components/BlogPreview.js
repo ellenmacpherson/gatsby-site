@@ -9,7 +9,7 @@ export function BlogPreview({ data }) {
 
   return (
     <div className='blogList'>
-      <h2>Latest Blog Posts</h2>
+      <h2>Some Recent Thoughts</h2>
       <section className='preview-container'>
         {edges.map(edge => {
           const { frontmatter } = edge.node

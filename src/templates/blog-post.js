@@ -23,10 +23,8 @@ export default function Template({data}) {
         <section className='BlogPostPage'>
             <Nav style={{width:'95%'}} />
             <main>
-                <div className="BlogPostHeader" style={backgroundImage}>
-                    <h1>{post.frontmatter.title}</h1>
-                </div>
                 <section className='content'>
+                <h2>{post.frontmatter.title}</h2>
                     <small>Published: {post.frontmatter.date}</small>
                     {/* <ul className='tagList'>
                         {tags.map(tag => (

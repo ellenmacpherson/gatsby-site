@@ -9,8 +9,7 @@ const Nav = () => (
     <nav className='navigation'>
         <div id='logo'><Link to='/'>EM</Link></div>
         <ul className='nav-list'>
-            <li className='nav-items'><Link to='/'>Home</Link></li>
-            <li className='nav-items'><Link to='/blog'>Blog</Link></li>
+            <li className='nav-items' id="blog-link"><Link to='/blog'>Blog</Link></li>
             <li className='nav-items'><BuyMeACoffee /></li>
         </ul>
     </nav>

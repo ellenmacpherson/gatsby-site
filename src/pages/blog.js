@@ -17,7 +17,6 @@ const Blog = ({data}) => {
         <div>
             <header className="blogListHeader">
                 <Nav style={style}/>
-                <h1>Blog</h1>
             </header>
             <div className='blogList'>
             {edges.map(edge => {
@@ -25,7 +24,7 @@ const Blog = ({data}) => {
                 const { frontmatter } = edge.node
                 return(
                     <article className='BlogPreview'>
-                    <Link to={frontmatter.path}><h2>{frontmatter.title}</h2></Link>
+                    <Link to={frontmatter.path}><h3>{frontmatter.title}</h3></Link>
                     <div className='previewContent'>
                         <p>{excerpt}<Link to={frontmatter.path} className='readMoreLink'> Read More</Link></p>
                     </div>

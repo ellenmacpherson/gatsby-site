@@ -5,13 +5,13 @@ import './About.css'
 
 const About = ({ siteTitle }) => (
     <section className='aboutSection'>
-        <h2>About Me</h2>
+        <h2>Hey there, I'm Ellen <span role="img" aria-label="hello emoji">👋</span></h2>
+        
 
-        <p>Hey there, I'm Ellen <span role="img" aria-label="hello emoji">👋</span></p>
+        <p>By day, I design and engineer data-driven websites and consult on digital strategy at ThoughtWorks. By night, I teach web development.</p>
+        <p><span role="img" aria-label="location pin emoji">📍</span> Melbourne, Australia</p>
+        <span role="img" aria-label="location pin emoji">🔗</span><a href="https://www.linkedin.com/in/ellen-macpherson/">See my career to date or get in touch.</a>
 
-        <p>I'm a data-driven frontend developer currently based in the UK. Day-to-day, I turn coffee into TV apps at BT. Outside of the 9-5, I build small apps, blogs and websites using HTML, CSS, JavaScript and React.js. My work is all about leveraging the principles of human-centered design to ensure simple, brilliant, and accessible user experiences. So if you want to build an app all the technophobes in your family will love using, let's have a chat.</p>
-
-        <p>Outside of my IDE, I'm also hugely passionate about seeing more diversity in tech spaces. Only 4% of software developers in the UK identify as female, and I'm keen to get involved in making that a much larger number. I am currently working with BT's inclusion and recruitment D&I groups to improve hiring, retention and workplace culture.</p>
     </section>
 
 )

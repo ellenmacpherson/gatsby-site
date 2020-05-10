@@ -20,8 +20,8 @@ const Layout = ({data}) => {
       <Header />
       <main>
         <About/>
-        <BlogPreview />
-        <Contact />
+        {/* <BlogPreview />
+        <Contact /> */}
       </main>
       
       <Footer />
