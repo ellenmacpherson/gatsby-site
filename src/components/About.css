@@ -1,6 +1,6 @@
 .aboutSection {
     margin: 0 auto;
-    margin-top: 15%;
+    margin-top: 35%;
     min-height: 60vh;
     /* padding: 50px 0; */
     width: 80%;
@@ -19,4 +19,12 @@
 
 .aboutSection a:hover {
     border-bottom: 1px solid #724CF9;
+}
+
+@media screen and (max-width: 680px) {
+    .aboutSection {
+        margin-top: 50%;
+        width: 100%;
+        min-height: 60vh;
+    }
 }

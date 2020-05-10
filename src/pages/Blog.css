@@ -42,3 +42,17 @@
 .readMoreLink:hover {
     border-bottom: 1px solid #724CF9;
 }
+
+@media screen and (max-width: 680px) {
+    .blogList {
+        width: 100%;
+    }
+    
+    .BlogPreview {
+        width: 100%;
+    }
+
+    .BlogPreview h3 {
+        font-size: 1rem;
+    }
+}
