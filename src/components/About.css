@@ -23,8 +23,7 @@
 
 @media screen and (max-width: 680px) {
     .aboutSection {
-        margin-top: 50%;
         width: 100%;
-        min-height: 60vh;
+        min-height: 65vh;
     }
 }
