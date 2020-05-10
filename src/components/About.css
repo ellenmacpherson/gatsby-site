@@ -6,6 +6,10 @@
     width: 80%;
 }
 
+.aboutSection h2 {
+    font-size: 2rem;
+}
+
 .aboutSection a {
     color: #724CF9;
     text-decoration: none;
