@@ -1,8 +1,9 @@
 .aboutSection {
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
     margin: 0 auto;
-    margin-top: 35%;
     min-height: 60vh;
-    /* padding: 50px 0; */
     width: 80%;
 }
 
@@ -11,14 +12,19 @@
 }
 
 .aboutSection a {
+    text-decoration: none;
+}
+
+.aboutSection a p {
+    display: inline;
     color: #724CF9;
     text-decoration: none;
     border-bottom: 1px solid transparent;
     padding: 0px 2px;
 }
 
-.aboutSection a:hover {
-    border-bottom: 1px solid #724CF9;
+.aboutSection a p:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 680px) {

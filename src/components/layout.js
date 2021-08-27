@@ -2,9 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import Header from "./Header"
 import Footer from "./Footer"
-import BlogPreview from "./BlogPreview"
 import About from "./About"
-import Contact from "./Contact"
 
 const Layout = ({data}) => {
 

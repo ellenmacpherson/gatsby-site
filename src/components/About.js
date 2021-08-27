@@ -10,7 +10,7 @@ const About = ({ siteTitle }) => (
 
         <p>By day, I design and engineer data-driven websites and consult on digital strategy at ThoughtWorks. By night, I teach web development.</p>
         <p><span role="img" aria-label="location pin emoji">📍</span> Melbourne, Australia</p>
-        <span role="img" aria-label="location pin emoji">🔗</span><a href="https://www.linkedin.com/in/ellen-macpherson/">See my career to date or get in touch.</a>
+        <a href="https://www.linkedin.com/in/ellen-macpherson/"><span role="img" aria-label="location pin emoji">🔗</span><p>See my career to date or get in touch.</p></a>
 
     </section>
 

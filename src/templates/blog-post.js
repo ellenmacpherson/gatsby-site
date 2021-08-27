@@ -8,11 +8,6 @@ export default function Template({data}) {
     const post = data.markdownRemark;
     console.log(post.frontmatter.date)
 
-    const backgroundImage = {
-        background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${post.frontmatter.cover_image})`,
-        width: '100%',
-        maxHeight: '70vh'
-    }
     // const tags = post.frontmatter.tags;
     // tags.forEach(tag => {
     //     tag = tag.trim()
